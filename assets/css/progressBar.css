@@ -1,0 +1,12 @@
+/*ProgressBar width*/
+.sq-progressBar-width{max-width:40%;}
+ /*Progress bars 20-70%*/
+.sq-progressBar-0{
+    height:1.5rem;
+    width:0%;
+}
+.sq-progressBar-20{width:20%;}
+.sq-progressBar-40{width:40%;}
+.sq-progressBar-50{width:50%;}
+.sq-progressBar-70{width:70%;}
+/*End of CSS Progress Bar*/

@@ -1,0 +1,82 @@
+#regForm{
+  background-color: var(--white);
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+.sq-cu input{
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid var(--grey);
+}
+.sq-cu input.invalid{background-color:red;}
+.sq-cu-tab{display: none;}
+.sq-cu-step{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: var(--secondary-highlight);
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+.sq-cu-step.active{opacity: 1;}
+.sq-cu-step.finish{background-color: var(--success);}
+#message{
+  display:none;
+  background: var(--text-white);
+  color: var(--text-base);
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+#message p{
+  padding: 10px 35px;
+  font-size: 18px;
+}
+.sq-cu-invalid{color: red;}
+
+.sq-cu-invalid:before{
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+.sq-cu-valid{color: green;}
+.sq-cu-valid:before{
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+.sq-cu-input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+.sq-cu-input[type=submit]{
+  background-color: var(--success);
+  color: white;
+}
+.sq-cu-container{
+  background-color: var(--text-white);
+  padding: 20px;
+}
+#message{
+  display:none;
+  background: var(--text-white);
+  color: var(--text-base);
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+#message p{
+  padding: 10px 35px;
+  font-size: 18px;
+}

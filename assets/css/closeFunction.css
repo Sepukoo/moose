@@ -1,0 +1,80 @@
+/* close shows X in upper right corner */
+.sq-close{
+    line-height: 1rem;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    width:24px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+    -transition-delay: 0.2s;
+  }
+  .sq-close:hover{
+    background-color: var(--danger-highlight);
+    transition: all 0.5s ease-out;
+  }
+  /* modal background */
+  .sq-modalbg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    display: block;
+    pointer-events: none;
+  }
+  .sq-modalbg .dialog{
+    width: 20rem;
+    position: relative;
+    top: -20rem;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    background-color: var(--text-white);
+  }
+  .sq-modalbg:target{
+    display: block;
+    pointer-events: auto;
+    background-color:var(--secondary-transparancy);
+    transition: all 0.5s ease-out;
+  }
+  .sq-modalbg:target .dialog{
+    top: -10px;
+    transition: all 0.4s ease-out;
+    -transition-delay: 0.2s;
+  }
+  /* button with hover and delay effect */
+  .sq-button{
+    margin: 1rem auto;
+    font-size: 3rem;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px;
+    border: 1px solid var(--muted);
+    cursor: pointer;
+    padding: 20px 70px 30px;
+    position: relative;
+    top: 2.5rem;
+    background-color: var(--background-secondary);
+    width: 15rem;
+    display: block;
+    text-align: center;
+    transition: all 0.5s ease-out;
+  }
+  /* Hover */
+  .sq-button:hover{
+    color: var(--text-base);
+    background-color: var(--white);;
+    transition: all 0.5s ease-out;
+  }
+  /* body {
+    width: 100%;
+    background-color: var(--white);
+  }
+
+  a {
+    color: var(--text-base);
+    text-decoration: none;
+  }
+  */

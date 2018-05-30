@@ -1,0 +1,36 @@
+<nav class="sq-nav-area">
+			  <div class="sq-navbar-layout">
+				  <div class="sq-navbar-nav sq-flex sq-justify-right">
+					<div class="sq-air-x-05">
+						<a href="/about" class="sq-text-white sq-secondary sq-r-border sq-x-padding-05">Welcome to our store!</a>
+						<a href="#" class="sq-text-white sq-secondary sq-r-border sq-x-padding-05">Sign up for our newsletter</a>
+						<a href="#" class="sq-text-white sq-secondary sq-x-padding-05">Contact us</a>
+					</div>
+				  </div>
+				  <div class="sq-navbar-domain sq-flex sq-justify-right sq-align-center sq-nav-search">
+					<input style="margin-right:10em;" type="psearch" name="search" value="search">
+					<a class="sq-air-x-05" href="#login">Login</a>
+					<!-- <button class="sq-btn sq-air-x-05" type="button" name="button">Sign in</button> -->
+					<button class="sq-btn sq-air-x-1" type="button" name="button">Shopping cart</button>
+				  </div>
+				  <div class="sq-navbar-links sq-secondary-highlight">
+					  <div class="sq-flex sq-justify-sb">
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/">All products </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Some really cool mugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Mugs with jugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Coffe mugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Team mugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Hipster decaf soy caramel frappuccino-only mugs </a>
+						  <div class="sq-r-border"></div>
+						  <a class="sq-sliding-rightToLeft sq-t-padding-05 sq-air-x-1" href="/search">Thermocromic mugs </a>
+						  <div class="sq-r-border"></div>
+					  </div>
+				  </div>
+			  </div>
+		  </nav>

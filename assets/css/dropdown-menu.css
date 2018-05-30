@@ -1,0 +1,20 @@
+.sq-nav-dropdown{display: none;}
+.sq-nav-dropbtn{
+    padding: 0.5rem;
+    font-size:1rem;
+    border: none;
+    cursor:pointer;
+}
+.sq-nav-dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px;
+    min-width:5em;
+}
+.sq-nav-dropdown ul{
+   list-style:none;
+   padding: 0.3rem;
+   margin: 0;
+}
+.sq-nav-dropdown-content a:hover{background-color: var(--info-highlight);}
+.sq-nav-dropbtn:hover{background-color: var(--info);}

@@ -1,0 +1,15 @@
+ <%= render MooseWeb.Shared.Navigation.NavbarView, "_navbar.html", assigns %> 
+
+ <%= render MooseWeb.Shared.Navigation.NavbarView, "_navbar2.html", assigns %>
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
+
+  <p><a href="<%= page_path @conn, :index %>">Link back to this page</a></p>
+ <%= render MooseWeb.Shared.Navigation.BoxView, "_box.html", assigns %>
+ <%= render MooseWeb.Shared.Navigation.BoxView, "_bux.html", assigns %> 
+ <%= render MooseWeb.BaxView, "_bax.html", assigns%> 
+
+<button></button>
+
+ </div>
+
